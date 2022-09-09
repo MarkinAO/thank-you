@@ -35,13 +35,14 @@ body {
 
 .width {
     margin: 0 auto;
-    max-width: 1005px;
+    max-width: 1024px;
+    padding: 0 10px;
 }
 
 .header {
-    margin: 70px auto 0;    
+    margin: 70px auto 0;
     text-align: center;
-    line-height: 1;
+    line-height: 42px;
     font-size: 38px;
     font-weight: bold;
 }
@@ -51,6 +52,7 @@ body {
     font-family: 'Magistral', Bold, monospace;
     font-size: 54px;
     font-weight: bold;
+    line-height: 48px;
     color: #de0000;
 }
 
@@ -100,14 +102,10 @@ body {
     max-width: 100%;
 }
 
-
-.main__img-2 {        
-    max-width: 718px;
-}
-
 .logo {
     display: block;
     margin: 0 auto;
+    max-width: 300px;
 }
 
 .footer {
@@ -153,55 +151,4 @@ body {
 
 .instagram {
     background-color: #f00074;
-}
-
-@media (max-width: 1023px) {
-    .main__img-1 {        
-        max-width: 750px;
-    }
-}
-
-@media (max-width: 781px) {
-    .width {
-        max-width: 608px;
-    }
-    .main__img-1 {        
-        max-width: 608px;
-    }
-    .main__img-2 {        
-        max-width: 576px;
-    }
-}
-
-@media (max-width: 639px) {
-    .width {
-        max-width: 528px;
-    }
-    .main__img-1 {        
-        max-width: 528px;
-    }
-    .main__img-2 {        
-        max-width: 496px;
-    }
-}
-
-@media (max-width: 559px) {
-    .header {
-        font-size: 32px;
-    }    
-    .text-marked {
-        font-size: 45px;
-    }
-    .width {
-        max-width: 528px;
-    }
-    .main__img-1 {        
-        max-width: 100%;
-    }
-    .main__img-2 {        
-        max-width: 100%;
-    }
-    .logo {
-        max-width: 100%;
-    }    
 }
